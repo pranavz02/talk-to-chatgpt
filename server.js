@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 app.use('/', zoomRouter)
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + 'views/join.html')
+    res.sendFile(__dirname + '/views/join.html')
 })
 
 app.listen(
